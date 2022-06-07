@@ -5,10 +5,16 @@
     <title>Cтудия Портфолио</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
@@ -29,19 +35,21 @@
 
     <main>
       <!-- Фильтр конопки -->
-      <section style="display: flex; justify-content: center;">
-        <button type="button">Все</button>
-        <button type="button">Веб-сайты</button>
-        <button type="button">Приложения</button>
-        <button type="button">Дизайн</button>
-        <button type="button">Маркетинг</button>
+      <section style="display: flex; justify-content: center">
+        <ul>
+          <li><button type="button">Все</button></li>
+          <li><button type="button">Веб-сайты</button></li>
+          <li><button type="button">Приложения</button></li>
+          <li><button type="button">Дизайн</button></li>
+          <li><button type="button">Маркетинг</button></li>
+        </ul>
       </section>
 
       <!-- Портфолио -->
 
       <section>
         <h2 hidden>Портфолио</h2>
-        <ul style="display: flex; justify-content: center;">
+        <ul style="display: flex; justify-content: center">
           <li style="margin: 20px">
             <img src="./images/tehnokrjak-website.jpg" width="370" height="294" alt="Технокряк" />
             <h4>Технокряк</h4>
@@ -68,7 +76,7 @@
             <p>Приложение</p>
           </li>
         </ul>
-        <ul style="display: flex; justify-content: center;">
+        <ul style="display: flex; justify-content: center">
           <li style="margin: 20px">
             <img src="./images/projekt-prime-website.jpg" width="370" height="294" alt="Prime" />
             <h4>Проект Prime</h4>
@@ -96,7 +104,7 @@
             <p>Веб-сайт</p>
           </li>
         </ul>
-        <ul style="display: flex; justify-content: center;">
+        <ul style="display: flex; justify-content: center">
           <li style="margin: 20px">
             <img
               src="./images/limited-edition-design.jpg"
