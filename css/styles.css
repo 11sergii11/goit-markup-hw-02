@@ -47,6 +47,12 @@ a {
   letter-spacing: 0.02em;
   color: #757575;
 }
+.is-hidden {
+  visibility: hidden;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+}
 .solution {
   font-family: 'Roboto';
   font-style: normal;
