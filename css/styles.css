@@ -1,15 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --color-blu: #2196f3;
+  --color-bl: #212121;
+  --color-wt: #ffffff;
+  --color-darkblu: #188ce8;
+  --color-grafit: #2f303a;
+  --color-lightgrey: #757575;
+  --color-liliblu: #f5f4fa;
+}
 body {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif; */
   font-style: normal;
-  color: #212121;
+  color: var(-color-bl);
   /* cursor: pointer; */
-  background-color: #eeeeee;
+  background-color: var(--color-wt);
+  font-size: 14px;
+  letter-spacing: 0, 03em;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 a {
   text-decoration: none;
-  /* color: #757575;*/
-}
+ }
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -18,26 +46,27 @@ a {
   line-height: 31px;
   /* identical to box height */
   letter-spacing: 0.03em;
-
-  color: #2196f3;
+  color: var(--color-blu);
 }
 .studio {
-  color: #212121;
+  color: var(--color-bl);
 }
-.nav > a {
+.studio-footer {
+  color: var(--color-wt);
+}
+.nav > li a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color-bl);
   text-decoration: none;
 }
-.nav > a:hover {
-  color: #2196f3;
+.nav > li a:hover {
+  color: var(--color-darkblu);
 }
-
 .heder-contacts a {
   font-family: 'Roboto';
   font-style: normal;
@@ -45,14 +74,12 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--color-lightgrey);
 }
-.is-hidden {
-  visibility: hidden;
-  overflow: hidden;
-  pointer-events: none;
-  position: absolute;
+.heder-contacts a:hover {
+  color: var(--color-blu);
 }
+
 .solution {
   font-family: 'Roboto';
   font-style: normal;
@@ -63,7 +90,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-wt);
 }
 .order {
   /* position: absolute; */
@@ -71,7 +98,7 @@ a {
   height: 50px;
   /* display: flex;
  justify-content: center; */
-  background: #2196f3;
+  background: var(--color-blu);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 0;
   border-radius: 4px;
@@ -84,15 +111,14 @@ a {
   /* align-items: center; */
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--color-wt);
   cursor: pointer;
 }
 .order:hover {
-  color: #fbff00;
+  background-color: var(--color-darkblu);
 }
 .order:focus {
   cursor: progress;
-  color: orange;
 }
 
 li {
@@ -107,7 +133,7 @@ li {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--color-bl);
 }
 .skils {
   font-family: 'Roboto';
@@ -116,7 +142,7 @@ li {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-bl);
 }
 .mishion {
   font-family: 'Roboto';
@@ -126,10 +152,10 @@ li {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-bl);
 }
 .grafit {
-  background-color: #2f303a;
+  background-color: var(--color-grafit);
 }
 .adress {
   font-family: 'Roboto';
@@ -138,10 +164,10 @@ li {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--color-wt);
 }
 .e-adress {
-  color: #757575;
+  color: var(--color-lightgrey);
   text-decoration: none;
   font-style: normal;
 }
@@ -150,7 +176,7 @@ li {
   height: 38px;
   left: 576px;
   top: 174px;
-  background: #f5f4fa;
+  background: var(--color-liliblu);
   border: 0;
   border-radius: 4px;
   /* text buttom */
@@ -161,8 +187,8 @@ li {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-bl)
 }
 .filtr:hover {
-  background: #2196f3;
+  background: var(--color-blu);
 }
