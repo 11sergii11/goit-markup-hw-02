@@ -20,6 +20,7 @@ body {
   /* cursor: pointer; */
   background-color: var(--color-wt);
   font-size: 14px;
+  line-height: 1,14;
   letter-spacing: 0, 03em;
 }
 .visually-hidden {
@@ -37,13 +38,13 @@ body {
 }
 a {
   text-decoration: none;
- }
+}
 .logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1,19;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--color-blu);
@@ -58,8 +59,7 @@ a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   letter-spacing: 0.02em;
   color: var(--color-bl);
   text-decoration: none;
@@ -71,8 +71,6 @@ a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--color-lightgrey);
 }
@@ -85,8 +83,7 @@ a {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-
+  line-height: 1,36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -107,7 +104,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1,88;
   /* align-items: center; */
   text-align: center;
   letter-spacing: 0.06em;
@@ -120,17 +117,12 @@ a {
 .order:focus {
   cursor: progress;
 }
-
 li {
   list-style: none;
 }
-
 .soft-skils {
   font-family: 'Roboto';
-  /* font-style: normal; */
   font-weight: 900;
-  font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-bl);
@@ -139,8 +131,7 @@ li {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  line-height: 1,71;
   letter-spacing: 0.03em;
   color: var(--color-bl);
 }
@@ -149,20 +140,57 @@ li {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1,17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-bl);
+}
+.soname {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,19;
+  /* text-align:; */
+  letter-spacing: 0.03em;
+  color: var(--color-bl);
+}
+.job {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1,19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--color-lightgrey);
+}
+.job-result {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-bl);
+}
+.job-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1,88;
+  letter-spacing: 0.03em;
+  color: var(--color-lightgrey);
 }
 .grafit {
   background-color: var(--color-grafit);
 }
 .adress {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font-style: normal;
+  line-height: 1,71;
   letter-spacing: 0.03em;
   color: var(--color-wt);
 }
@@ -170,6 +198,10 @@ li {
   color: var(--color-lightgrey);
   text-decoration: none;
   font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 400;
+  line-height: 1,71;
+  letter-spacing: 0.03em;
 }
 .filtr {
   width: 128px;
@@ -179,16 +211,19 @@ li {
   background: var(--color-liliblu);
   border: 0;
   border-radius: 4px;
-  /* text buttom */
+  margin: 5px;
+ /*  text buttom */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1,63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--color-bl)
+  color: var(--color-bl);
 }
 .filtr:hover {
   background: var(--color-blu);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
