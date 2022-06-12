@@ -54,6 +54,9 @@ a {
 .studio-footer {
   color: var(--color-wt);
 }
+.active{
+  color: var(--color-blu);
+}
 .nav > li a {
   font-family: 'Roboto';
   font-style: normal;
@@ -63,13 +66,9 @@ a {
   color: var(--color-bl);
   text-decoration: none;
 }
-.active{
-  color: var(--color-blu);
-}
 .nav > li a:hover {
   color: var(--color-darkblu);
 }
-
 .heder-contacts a {
   font-family: 'Roboto';
   font-style: normal;
