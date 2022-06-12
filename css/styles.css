@@ -54,17 +54,16 @@ a {
 .studio-footer {
   color: var(--color-wt);
 }
-.active{
-  color: var(--color-blu);
-}
-.nav > li a {
+.nav-info {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-bl);
-  text-decoration: none;
+  }
+.active{
+  color: var(--color-blu);
 }
 .nav > li a:hover {
   color: var(--color-darkblu);
