@@ -11,7 +11,7 @@
   --color-grafit: #2f303a;
   --color-lightgrey: #757575;
   --color-liliblu: #f5f4fa;
-  --e-adress-color: rgba(225,225,225,0,6);
+  --e-adress-color: rgba(225, 225, 225, 0.6);
 }
 body {
   /* font-family: 'Raleway', sans-serif;
