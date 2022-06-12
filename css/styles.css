@@ -63,12 +63,13 @@ a {
   color: var(--color-bl);
   text-decoration: none;
 }
-.nav > li a:hover {
-  color: var(--color-darkblu);
-}
 .active{
   color: var(--color-blu);
 }
+.nav > li a:hover {
+  color: var(--color-darkblu);
+}
+
 .heder-contacts a {
   font-family: 'Roboto';
   font-style: normal;
