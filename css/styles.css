@@ -63,11 +63,11 @@ a {
   color: var(--color-bl);
   text-decoration: none;
 }
-.carent:active{
-  color: var(--color-blu);
-}
 .nav > li a:hover {
   color: var(--color-darkblu);
+}
+.active{
+  color: var(--color-blu);
 }
 .heder-contacts a {
   font-family: 'Roboto';
