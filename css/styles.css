@@ -14,20 +14,7 @@
   --background: #E5E5E5;
   --e-adress-color: rgba(225, 225, 225, 0.6);
 }
-/*:root {
-  --color-blu: #2196f3;
-  --color-bl: #212121;
-  --color-wt: #ffffff;
-  --color-darkblu: #188ce8;
-  --color-grafit: #2f303a;
-  --color-lightgrey: #757575;
-  --color-liliblu: #f5f4fa;
-  --e-adress-color: rgba(225, 225, 225, 0.6);
- } */
-
 body {
-  /* font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif; */
   font-style: normal;
   color: var(--sekond-brand-color);
   background-color: var(--main-body-color);
@@ -56,8 +43,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
-  letter-spacing: 0.03em;
+   letter-spacing: 0.03em;
   color: var(--main-brand-color);
 }
 .studio {
@@ -115,7 +101,6 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  /* align-items: center; */
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-body-color);
@@ -165,8 +150,7 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* text-align:; */
-  letter-spacing: 0.03em;
+   letter-spacing: 0.03em;
   color: var(--sekond-brand-color);
 }
 .job {
